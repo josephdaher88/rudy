@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Rudy Moussa</title>
+  </head>
+  <body>
+    <div class="navbar__wrapper">
+      <nav>
+        <!-- Logo  -->
+        <a href="./index.html" class="logo">Rudy Moussa</a>
+        <!-- Links  -->
+        <ul class="nav__links">
+          <li class="nav__list">
+            <a href="" class="nav__link">Work</a>
+          </li>
+          <li class="nav__list">
+            <a href="" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__list">
+            <a href="" class="nav__link">Resume</a>
+          </li>
+          <li class="nav__list">
+            <a href="" class="nav__link">Let's Chat</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- LANDING  -->
+    <section>
+      <header>
+        <!-- FIRST DIV -->
+        <div class="intro__wrapper">
+          <div class="intro__text">
+            Bring your ideas to life through UI UX Design
+          </div>
+
+          <div class="intro__boxes--wrapper">
+            <div class="intro__box">
+              <div>
+                4
+                <span>+</span>
+              </div>
+
+              Years Experience
+            </div>
+
+            <div class="intro__box">
+              <div>
+                38
+                <span>+</span>
+              </div>
+
+              Handeled Project
+            </div>
+
+            <div class="intro__box">
+              <div>
+                30
+                <span>+</span>
+              </div>
+              Clients
+            </div>
+          </div>
+        </div>
+
+        <!-- SECOND DIV -->
+        <div></div>
+      </header>
+    </section>
+  </body>
+</html>

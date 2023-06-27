@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Sora&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E5F3FF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Navbar */
+.navbar__wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+nav {
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  max-width: 1200px;
+  width: 100%;
+  border-radius: 40px;
+  margin: 0 auto;
+}
+
+.navbar__wrapper {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  background-color: #FFFFFF;
+}
+
+.nav__links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.logo {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21.888px;
+  line-height: 36px;
+  color: #0073B1;
+}
+
+.nav__link {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3771C8;
+}
+
+.nav__link_contact {
+  background: linear-gradient(90deg, #64ADFF 0%, #4EEDB1 100%);
+  color: #002f70;
+  padding: 9px 20px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.nav__link_contact:hover {
+  opacity: 0.8;
+}
+
+.container_Bidbayy {
+  margin-top: 200px;
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr auto ;
+  margin-left: 300px;
+  gap: 24px;
+}
+.img-f{
+  width: 1240px;
+  height: 550px;
+  margin-left: 215px;
+  margin-bottom: 150px;
+}
+
+.header {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #185BB7;
+}
+
+.sub_head {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #64ADFF;
+}
+div.card {
+  border: none;
+}
+
+
+
+h1 {
+  color: #185BB7;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 44px;
+}
+
+h2 {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 44px;
+  color: #64ADFF;
+}
+.row{
+  margin-button: 400px;
+}
+
+.row :first-child {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  color: #64ADFF;
+}
+
+.row .client {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 20px;
+  color: #185BB7;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.row .bidbay {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.504px;
+  line-height: 28px;
+  color: #64ADFF;
+  display: flex;
+  align-items: center;
+}
+
+.row .role {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 20px;
+  color: #185BB7;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.row .senior {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.504px;
+  line-height: 28px;
+  color: #64ADFF;
+  display: flex;
+  align-items: center;
+}
+
+.row .location {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #185BB7;
+  opacity: 0.8;
+}
+
+.row .remote {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.504px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #64ADFF;
+}
+
+.row .brief {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #185BB7;
+  opacity: 0.8;
+}
+
+.row .friendly {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.504px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #64ADFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.card-body {
+  background-color: #E5F3FF;
+  border: 1px solid #E5F3FF;
+}
+
+.rounded-5 {
+  margin-top: 100px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: rgba(100, 173, 255, 0.69);
+}
+
+.carousel {
+  width: 100%;
+  max-width: 1145px; /* Set the desired width */
+  margin: 0 auto; /* Center the carousel horizontally */
+}
+
+.container {
+  max-width: 100%;
+ /* Ensure the container expands to accommodate the wider carousel */
+}
+
+.col-lg-6 {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.504px;
+  line-height: 28px;
+  color: #64ADFF;
+}
+
+/* footer */
+  
+.contact-content {
+  margin: 50px 300px;
+  display: flex;
+  flex-direction: column;
+
+ }
+  
+.contact-text .text-title {
+  width: 428px;
+height: 48px;
+color: red;
+font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 42.72px;
+background: linear-gradient(270deg, #4EEDB1 0%, #64ADFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+display: inline;
+}
+.contact-text .paragraph-contact {
+  color: rgba(100, 173, 255, 0.7);
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+.contact-text .paragraph-contact a {
+  color: rgba(100, 173, 255, 0.7);
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.keep-in-touch-container {
+  display: flex;
+  justify-content: space-between;
+}
+.keep-in-touch-container .chatting {
+  background: linear-gradient(112.07deg, #64ADFF 0%, #4EEDB1 100%);
+  border-radius: 12px;
+  width: 147.95px;
+height: 60px;
+color: #002F70;
+text-align: center;
+}
+.chatting .chat-div {
+  font-family: 'Sora';
+font-style: normal;
+font-weight: 400;
+color: #002F70;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+.social-container {
+  display: flex;
+  gap: 70px;
+}
+.socials {
+  display: flex;
+  justify-content: space-between;
+  gap:30px;
+}
+.stay-in-touch {
+  color: #64ADFF;
+  font-family: 'Sora';
+font-style: normal;
+font-weight: 400;
+margin-top: 5px;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 767px) {
+  .row {
+    margin-top: 50px;
+  }
+
+  .header {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .sub_head {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  img {
+
+    max-width: 100%;
+    height: auto;
+  }
+  @media screen and (max-width: 480px) {
+    .img-f {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 50px;
+    }
+
+  h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .row :first-child {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .row .bidbay,
+  .row .senior,
+  .row .remote,
+  .row .friendly {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .container_Bidbayy {
+    margin-left: 0;
+  }
+
+  .contact-content {
+    margin-left: 0;
+  }
+
+  .stay-in-touch {
+    display: none;
+  }
+
+  .socials {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container_Bidbayy,
+  .contact-content {
+    margin-top: 100px;
+  }
+
+  .navbar__wrapper {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .navbar__wrapper,
+  nav {
+    height: 50px;
+  }
+
+  .nav__links {
+    gap: 12px;
+  }
+
+  .logo {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .nav__link,
+  .nav__link_contact {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .container_Bidbayy {
+    margin-left: 0;
+  }
+  img {
+
+    max-width: 100%;
+    height: auto;
+  }
+
+    .img-f {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+
+
+  .contact-content {
+    margin-left: 0;
+  }
+
+  .contact-content h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .contact-content p,
+  a {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .socials {
+    margin-left: 12px;
+  }
+
+  .socials .whatsapp {
+    margin-left: 8px;
+  }
+}
+}
