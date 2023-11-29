@@ -446,8 +446,8 @@ PROJECT
     margin-bottom: 20px;
  
   }
-  .project_container_1 {
-    background-image: url("images/illumea.png");
+.project_container_1 {
+    background-image: url("images/Illumea.png");
   }
   .project_container_2 {
     background-image: url("images/think.png");
@@ -462,15 +462,15 @@ PROJECT
     background-image: url("images/realease.png");
   }
   
- .project_container_6 {
-    background-image: url("images/Goat.png");
+.project_container_6 {
+    background-image: url("images/goat.png");
   }
   
   
- .project_container_7 {
+.project_container_7 {
     background-image: url("images/spello.png");
   }
- .project_container_8 {
+.project_container_8 {
     background-image: url("images/pro.png");
   }
   
